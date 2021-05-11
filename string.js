@@ -68,6 +68,29 @@ let voorbeeld = "     spaties     "
 let resultaatvb = voorbeeld.trimLeft()
 console.log(resultaatvb);
 
+// tekst samenvoegen aan de hand van concat
+
+let deel1 = "deze ";
+let deel2 = "en deze";
+let resultconcat = deel1.concat(deel2);
+console.log(resultconcat);
+let apart = deel1.concat(" en het nummer 25");
+console.log(apart);
+
+// charcode (ik weet het niet zeker? geeft het teken op die positie ofzo - character code wss)
+
+let char = "tekst"
+let reschar = char.charAt(2)
+console.log(reschar);
+
+// string omzetten naar array
+
+let doorlopend = "een twee drie vier";
+let stringToArray = doorlopend.split(" ");
+console.log(stringToArray);
+let a = "een,twee,drie,vier"
+let sta = a.split(",")
+console.log(sta);
 
 
 
